@@ -12,7 +12,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-@ConfigurationProperties("spring.datasource")
 public class SpringConfiguration {
 
 	@Bean
